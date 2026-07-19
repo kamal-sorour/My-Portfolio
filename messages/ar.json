@@ -1,0 +1,259 @@
+{
+  "nav": {
+    "home": "الرئيسية",
+    "about": "نبذة عني",
+    "skills": "المهارات",
+    "projects": "المشاريع",
+    "contact": "تواصل معي",
+    "resume": "السيرة الذاتية",
+    "privacyPolicy": "سياسة الخصوصية",
+    "termsOfService": "شروط الخدمة",
+    "backToHome": "العودة للمعرض",
+    "language": "English"
+  },
+  "hero": {
+    "name": "كمال",
+    "intro": "أهلاً، أنا",
+    "title": "Frontend Developer",
+    "description": "مطور واجهات أمامية متخصص في بناء تجارب ويب احترافية ومتجاوبة، مع التركيز على تقديم أفضل تجربة للمستخدم وواجهات استخدام متقنة.",
+    "availability": "متاح للعمل على مشاريع جديدة",
+    "cta": "تصفح أعمالي",
+    "age": "العمر: 20",
+    "location": "مصر",
+    "techStack": [
+      "React",
+      "Next.js",
+      "Shadcn/UI",
+      "TypeScript",
+      "Tailwind CSS",
+      "Redux Toolkit",
+      "Framer Motion",
+      "Git/GitHub",
+      "Postman"
+    ],
+    "code": {
+      "fileName": "developer.js",
+      "name": "Kamal",
+      "age": "20",
+      "location": "Egypt",
+      "role": "Frontend Developer",
+      "skills": [
+        "React",
+        "Next.js",
+        "Shadcn/UI",
+        "TypeScript",
+        "Tailwind CSS",
+        "Redux Toolkit",
+        "Framer Motion",
+        "Git/GitHub",
+        "Postman"
+      ],
+      "isDedicated": "true",
+      "hardWorker": "true"
+    },
+    "console": {
+      "label": "Console Output",
+      "message": "Welcome to my professional portfolio."
+    },
+    "compiled": "تم التجميع بنجاح",
+    "social": {
+      "github": "حساب GitHub",
+      "linkedin": "حساب LinkedIn",
+      "email": "إرسال بريد إلكتروني"
+    }
+  },
+  "chatBot": {
+    "default": "عذراً، يمكنني الإجابة فقط على الأسئلة المتعلقة بـ كمال محمد ومسيرته المهنية.",
+    "greetings": [
+      "hello",
+      "hi",
+      "hey",
+      "start",
+      "مرحبا",
+      "أهلا",
+      "السلام عليكم"
+    ],
+    "greetingResponse": "مرحباً! أنا المساعد الافتراضي الخاص بكمال. كيف يمكنني مساعدتك بخصوص ملفه المهني؟",
+    "qa": [
+      {
+        "keywords": [
+          "who",
+          "kamal",
+          "about",
+          "developer",
+          "من",
+          "كمال",
+          "عن"
+        ],
+        "answer": "كمال محمد سرور هو مطور واجهات أمامية (Frontend) متخصص في تقنيات الويب الحديثة مثل React و Next.js و TypeScript."
+      },
+      {
+        "keywords": [
+          "skills",
+          "stack",
+          "tech",
+          "technologies",
+          "مهارات",
+          "تقنيات"
+        ],
+        "answer": "يمتلك كمال خبرة عالية في React و Next.js و TypeScript و Tailwind CSS بالإضافة إلى العديد من أدوات تطوير الواجهات الأمامية الحديثة الأخرى."
+      },
+      {
+        "keywords": [
+          "projects",
+          "work",
+          "portfolio",
+          "مشاريع",
+          "أعمال"
+        ],
+        "answer": "قام بتطوير العديد من المشاريع، بما في ذلك معرض الأعمال هذا. يمكنك الاطلاع على المزيد في قسم المشاريع."
+      },
+      {
+        "keywords": [
+          "contact",
+          "email",
+          "hire",
+          "reach",
+          "تواصل",
+          "توظيف",
+          "ايميل"
+        ],
+        "answer": "يمكنك التواصل مع كمال عبر النموذج المتاح في قسم (تواصل معي) أو من خلال روابط حساباته المهنية."
+      }
+    ]
+  },
+  "skills": {
+    "title": "الخبرات التقنية",
+    "subtitle": "أدوات حديثة لبناء تجارب ويب استثنائية في تطوير الواجهات الأمامية",
+    "core": "اللغات والأطر الأساسية",
+    "styling": "التنسيق وواجهة المستخدم",
+    "tools": "الأدوات والبيئة",
+    "learning": "التطوير والتعلم المستمر"
+  },
+  "projects": {
+    "title": "أبرز المشاريع",
+    "subtitle": "معرض لتطبيقات الويب والحلول البرمجية التي قمت بتطويرها",
+    "liveDemo": "معاينة حية",
+    "source": "الكود المصدري",
+    "moreComing": "المزيد من المشاريع قريباً...",
+    "search": "البحث في المشاريع...",
+    "filters": "تصفية",
+    "technology": "التقنية المستخدمة",
+    "projectType": "نوع المشروع",
+    "complexity": "مستوى التعقيد",
+    "clearAll": "إلغاء التصفية",
+    "viewDetails": "عرض التفاصيل",
+    "noResultsDesc": "حاول تغيير خيارات التصفية أو كلمات البحث للوصول إلى النتيجة المطلوبة.",
+    "noResults": "لم يتم العثور على مشاريع تطابق المعايير المحددة.",
+    "items": [
+      {
+        "title": "ياسيفاي (Yassify)",
+        "description": "متجر بقالة إلكتروني متميز مصمم لتقديم تجربة تسوق سلسة وفائقة السرعة. تم بناؤه بالكامل باستخدام Next.js App Router الحديث، ويستفيد من مكونات الخادم (Server Components)، وإدارة الحالة القوية، وواجهة مستخدم مصممة بشكل جميل باستخدام Tailwind CSS v4 و shadcn/ui.",
+        "type": "E-commerce",
+        "complexity": "Advanced"
+      },
+      {
+        "title": "ياس (Yass - Social Network)",
+        "description": "منصة شبكة اجتماعية حديثة وجاهزة للإنتاج مصممة لربط الأشخاص بسلاسة. توفر بيئة ديناميكية قوية حيث يمكن للمستخدمين مشاركة أفكارهم، والتفاعل مع المحتوى الغني، والتفاعل مع الآخرين في الوقت الفعلي مع استخدام React Query لإدارة الحالة بشكل فعال وسريع.",
+        "type": "Social Network",
+        "complexity": "Advanced"
+      },
+      {
+        "title": "كمال سرور — معرض الأعمال",
+        "description": "معرض أعمال حديث وثنائي اللغة (إنجليزي / عربي) تم بناؤه باستخدام تقنيات الويب الحديثة. يتميز بـ 6 ثيمات مخصصة، و next-intl للترجمة الآمنة، و service worker مخصص لدعم PWA، وبوت ترمينال تفاعلي، و contact API محدد لمعدل الطلبات.",
+        "type": "Portfolio",
+        "complexity": "Advanced"
+      },
+      {
+        "title": "عدسة (Adasa)",
+        "description": "مدونة تصوير فوتوغرافي تفاعلية وحديثة مصممة لعرض القصص البصرية والمقالات والمحتوى التعليمي. تتميز بدعم كامل للتخطيط العربي (RTL)، وفلترة متجاوبة للمقالات حسب الفئات، والتنقل السلس عبر الصفحات باستخدام React 19 و Bootstrap 5.",
+        "type": "Blog",
+        "complexity": "Intermediate"
+      },
+      {
+        "title": "نيوتري بلان (NutriPlan)",
+        "description": "تطبيق صفحة واحدة (SPA) متكامل يعمل كرفيق صحي يومي. يربط بين قاعدة بيانات للوجبات الصحية، ونظام فحص باركود المنتجات الذكي لمعرفة قيمها الغذائية باستخدام OpenFoodFacts API، وتتبع السعرات اليومية وتخزينها محلياً.",
+        "type": "Health App",
+        "complexity": "Advanced"
+      },
+      {
+        "title": "كويز ماستر (QuizMaster)",
+        "description": "تطبيق اختبارات وأسئلة تفاعلية حديث يجلب الأسئلة بشكل ديناميكي من Open Trivia Database API. يتميز باختيار الفئات ومستويات الصعوبة، ومؤقت تنازلي بصري، وتغذية صوتية تفاعلية، ولوحة متصدرين مخزنة محلياً.",
+        "type": "Quiz App",
+        "complexity": "Intermediate"
+      }
+    ],
+    "technologies": "التقنيات",
+    "types": {
+      "E-commerce": "تجارة إلكترونية",
+      "Social Network": "شبكة اجتماعية",
+      "Portfolio": "معرض أعمال",
+      "Blog": "مدونة",
+      "Health App": "تطبيق صحي",
+      "Quiz App": "تطبيق اختبارات"
+    },
+    "complexities": {
+      "Basic": "أساسي",
+      "Intermediate": "متوسط",
+      "Advanced": "متقدم"
+    },
+    "description": "الوصف",
+    "livePreview": "المعاينة المباشرة",
+    "viewCode": "عرض الكود",
+    "projectStats": "إحصائيات المشروع"
+  },
+  "contact": {
+    "title": "تواصل معي",
+    "subtitle": "متاح لفرص مهنية وتعاونات جديدة",
+    "getInTouch": "ابقَ على تواصل",
+    "sendMessage": "إرسال رسالة",
+    "name": "الاسم",
+    "email": "البريد الإلكتروني",
+    "message": "الرسالة",
+    "namePlaceholder": "الاسم الكريم",
+    "emailPlaceholder": "your.email@example.com",
+    "messagePlaceholder": "اكتب رسالتك هنا...",
+    "send": "إرسال",
+    "sending": "جاري الإرسال...",
+    "whatsapp": "واتساب",
+    "successMessage": "تم إرسال الرسالة بنجاح! سأقوم بالرد عليك في أقرب وقت.",
+    "errorMessage": "حدث خطأ أثناء الإرسال. يرجى المحاولة مرة أخرى أو مراسلتي مباشرة.",
+    "clickToConnect": "اضغط للتواصل"
+  },
+  "notFound": {
+    "title": "الصفحة غير موجودة",
+    "description": "عذراً! يبدو أن الصفحة التي تبحث عنها غير متوفرة أو تم نقلها.",
+    "suggestions": {
+      "title": "ماذا يمكنك أن تفعل؟",
+      "items": [
+        "تأكد من صحة الرابط المدخل",
+        "العودة إلى الصفحة الرئيسية",
+        "تصفح مشاريعي ومهاراتي",
+        "تواصل معي إذا كنت بحاجة للمساعدة"
+      ]
+    },
+    "backHome": "العودة للرئيسية",
+    "goBack": "رجوع",
+    "funMessage": "حتى أفضل المطورين يواجهون خطأ 404 أحياناً!"
+  },
+  "projectModal": {
+    "watchDemo": "معاينة المشروع",
+    "viewCode": "عرض الكود المصدري",
+    "technologies": "التقنيات المستخدمة",
+    "description": "وصف المشروع",
+    "complexityLabel": "مستوى التعقيد"
+  },
+  "footer": {
+    "description": "مطور ويب يركز على بناء حلول رقمية حديثة، قابلة للتوسع، ومصممة بأعلى معايير الجودة.",
+    "quickLinks": "روابط سريعة",
+    "connect": "تواصل معي",
+    "projects": "المشاريع",
+    "resume": "السيرة الذاتية",
+    "contact": "تواصل معي",
+    "privacy": "سياسة الخصوصية",
+    "terms": "شروط الخدمة",
+    "rights": "جميع الحقوق محفوظة.",
+    "builtWith": "تم بناؤه باستخدام Next.js 16 · TypeScript · Vercel"
+  },
+  "themes": "المظاهر"
+}

@@ -1,0 +1,246 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact",
+    "resume": "Resume",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "backToHome": "Back to Portfolio",
+    "language": "العربية"
+  },
+  "hero": {
+    "name": "KAMAL",
+    "intro": "I am",
+    "title": "Frontend Developer",
+    "description": "A passionate Frontend Developer dedicated to crafting pixel-perfect, responsive web experiences and delivering exceptional user interfaces.",
+    "availability": "Available for new opportunities",
+    "cta": "Explore My Work",
+    "age": "Age: 20",
+    "location": "Egypt",
+    "techStack": [
+      "React",
+      "Next.js",
+      "Shadcn/UI",
+      "TypeScript",
+      "Tailwind CSS",
+      "Redux Toolkit",
+      "Framer Motion",
+      "Git/GitHub",
+      "Postman"
+    ],
+    "code": {
+      "fileName": "developer.js",
+      "name": "Kamal",
+      "age": "20",
+      "location": "Egypt",
+      "role": "Frontend Developer",
+      "skills": [
+        "React",
+        "Next.js",
+        "Shadcn/UI",
+        "TypeScript",
+        "Tailwind CSS",
+        "Redux Toolkit",
+        "Framer Motion",
+        "Git/GitHub",
+        "Postman"
+      ],
+      "isDedicated": "true",
+      "hardWorker": "true"
+    },
+    "console": {
+      "label": "Console Output",
+      "message": "Welcome to my professional portfolio."
+    },
+    "compiled": "Compiled Successfully",
+    "social": {
+      "github": "GitHub Profile",
+      "linkedin": "LinkedIn Profile",
+      "email": "Send an Email"
+    }
+  },
+  "chatBot": {
+    "default": "I'm sorry, I can only provide information regarding Kamal Mohamed and his professional background.",
+    "greetings": [
+      "hello",
+      "hi",
+      "hey",
+      "start"
+    ],
+    "greetingResponse": "Hello! I am Kamal's virtual assistant. How can I assist you with his professional profile?",
+    "qa": [
+      {
+        "keywords": [
+          "who",
+          "kamal",
+          "about",
+          "developer"
+        ],
+        "answer": "Kamal Mohamed Sorour is a passionate Frontend Developer specializing in modern web technologies such as React, Next.js, and TypeScript."
+      },
+      {
+        "keywords": [
+          "skills",
+          "stack",
+          "tech",
+          "technologies"
+        ],
+        "answer": "Kamal is highly proficient in React, Next.js, TypeScript, and Tailwind CSS, alongside various other modern frontend development tools."
+      },
+      {
+        "keywords": [
+          "projects",
+          "work",
+          "portfolio"
+        ],
+        "answer": "He has successfully built numerous applications, including this interactive portfolio. You can view more details in the Projects section."
+      },
+      {
+        "keywords": [
+          "contact",
+          "email",
+          "hire",
+          "reach"
+        ],
+        "answer": "You can reach out to Kamal via the contact form provided on this site or through his professional social media links."
+      }
+    ]
+  },
+  "skills": {
+    "title": "Technical Expertise",
+    "subtitle": "A modern frontend toolkit for building exceptional web experiences",
+    "core": "Core Languages & Frameworks",
+    "styling": "Styling & UI",
+    "tools": "Ecosystem & Tools",
+    "learning": "Continuous Learning & Development"
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "subtitle": "A showcase of web applications and professional software solutions",
+    "liveDemo": "Live Preview",
+    "source": "Source Code",
+    "moreComing": "More projects coming soon...",
+    "search": "Search projects...",
+    "filters": "Filters",
+    "technology": "Technology",
+    "projectType": "Project Type",
+    "complexity": "Complexity",
+    "clearAll": "Clear All",
+    "viewDetails": "View Details",
+    "noResultsDesc": "Try adjusting your filters or search terms to find what you are looking for.",
+    "noResults": "No projects found matching your criteria.",
+    "items": [
+      {
+        "title": "Yassify",
+        "description": "Yassify is a premium online grocery store designed to provide a seamless, lightning-fast shopping experience. Built completely on the modern Next.js App Router, the project leverages Server Components, robust Client State Management, and a beautifully crafted UI using Tailwind CSS v4 and shadcn/ui.",
+        "type": "E-commerce",
+        "complexity": "Advanced"
+      },
+      {
+        "title": "Yass - Social Network",
+        "description": "Yass is a modern, production-ready social networking platform designed to connect people seamlessly. It provides a robust, dynamic environment where users can share thoughts, engage with rich content, and interact in real-time, utilizing React Query for state management.",
+        "type": "Social Network",
+        "complexity": "Advanced"
+      },
+      {
+        "title": "Kamal Sorour — Portfolio",
+        "description": "A modern, bilingual (English / Arabic) developer portfolio built with cutting-edge web technologies. Features 6 custom themes, next-intl for type-safe translations, custom service worker for PWA support, interactive terminal bot, and rate-limited contact API.",
+        "type": "Portfolio",
+        "complexity": "Advanced"
+      },
+      {
+        "title": "Adasa",
+        "description": "An elegant, interactive photography blog tailored for showcasing rich visual stories, featuring full RTL Arabic translation support, client-side routing, responsive category filtering, and smooth layout views built with React 19 and Bootstrap 5.",
+        "type": "Blog",
+        "complexity": "Intermediate"
+      },
+      {
+        "title": "NutriPlan",
+        "description": "A modular Single Page Application (SPA) health companion. Integrates a smart recipe search database, a packaged product barcode scanner utilizing OpenFoodFacts API, and a daily food log tracking calories and macronutrients locally.",
+        "type": "Health App",
+        "complexity": "Advanced"
+      },
+      {
+        "title": "QuizMaster",
+        "description": "A modern, interactive trivia application fetching questions dynamically from the Open Trivia Database API. Features category selection, countdown timers, keyboard shortcuts, audio feedback, and local storage high score leaderboard.",
+        "type": "Quiz App",
+        "complexity": "Intermediate"
+      }
+    ],
+    "technologies": "Technologies",
+    "types": {
+      "E-commerce": "E-commerce",
+      "Social Network": "Social Network",
+      "Portfolio": "Portfolio",
+      "Blog": "Blog",
+      "Health App": "Health App",
+      "Quiz App": "Quiz App"
+    },
+    "complexities": {
+      "Basic": "Basic",
+      "Intermediate": "Intermediate",
+      "Advanced": "Advanced"
+    },
+    "description": "Description",
+    "livePreview": "Live Preview",
+    "viewCode": "View Source",
+    "projectStats": "Project Statistics"
+  },
+  "contact": {
+    "title": "Contact Information",
+    "subtitle": "Available for new professional opportunities and collaborations",
+    "getInTouch": "Get In Touch",
+    "sendMessage": "Send a Message",
+    "name": "Full Name",
+    "email": "Email Address",
+    "message": "Your Message",
+    "namePlaceholder": "John Doe",
+    "emailPlaceholder": "john.doe@example.com",
+    "messagePlaceholder": "How can we collaborate?",
+    "send": "Submit Inquiry",
+    "sending": "Sending...",
+    "whatsapp": "WhatsApp",
+    "successMessage": "Thank you! Your message has been sent successfully. I will respond shortly.",
+    "errorMessage": "There was an error sending your message. Please try again or reach out directly.",
+    "clickToConnect": "Click to connect"
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "The requested page could not be located on this server.",
+    "suggestions": {
+      "title": "Suggested Actions:",
+      "items": [
+        "Verify the URL for accuracy",
+        "Return to the homepage",
+        "Navigate through the navigation menu",
+        "Contact me directly if the issue persists"
+      ]
+    },
+    "backHome": "Return to Homepage",
+    "goBack": "Go Back",
+    "funMessage": "A standard 404 error - please navigate back to safety."
+  },
+  "projectModal": {
+    "watchDemo": "View Live Application",
+    "viewCode": "Review Source Code",
+    "technologies": "Technologies Utilized",
+    "description": "Project Overview",
+    "complexityLabel": "Complexity"
+  },
+  "footer": {
+    "description": "Engineering modern, scalable, and meticulously designed web applications.",
+    "quickLinks": "Quick Links",
+    "connect": "Connect",
+    "projects": "Projects",
+    "resume": "Resume",
+    "contact": "Contact",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "rights": "All rights reserved.",
+    "builtWith": "Built with Next.js 16 · TypeScript · Vercel"
+  },
+  "themes": "Themes"
+}
