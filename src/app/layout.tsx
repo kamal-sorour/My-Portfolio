@@ -4,6 +4,7 @@ import "./globals.css";
 import Providers from "@/Providers/Providers/Providers";
 import ServiceWorkerRegistration from "@/components/ServiceWorkerRegistration/ServiceWorkerRegistration";
 import { SITE_URL, EXTERNAL_LINKS } from "@/constants/links";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -160,6 +161,7 @@ export default function RootLayout({
       <body className="min-h-full scroll-smooth" data-scroll-behavior="smooth">
         <ServiceWorkerRegistration />
         <Providers>{children}</Providers>
+        <SpeedInsights />
       </body>
     </html>
   );
