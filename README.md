@@ -9,7 +9,7 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
 
-[🌐 Live Demo](https://kimoo.netlify.app) · [📧 Contact](mailto:kamalsorour0@gmail.com)
+[🌐 Live Demo](https://kamal.is-a.dev) · [📧 Contact](mailto:kamalsorour0@gmail.com)
 
 </div>
 
@@ -245,7 +245,7 @@ This project is **MIT** licensed.
 
 <div align="center">
 
-**Built with ❤️ by [Kamal Sorour](https://kimoo.netlify.app)**
+**Built with ❤️ by [Kamal Sorour](https://kamal.is-a.dev)**
 
 Next.js 16 · React 19 · TypeScript · Tailwind CSS 4
 

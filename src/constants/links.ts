@@ -4,7 +4,7 @@
 // ═══════════════════════════════════════════════════════════════
 
 // ── Site ─────────────────────────────────────────────────────
-export const SITE_URL = 'https://kimoo.netlify.app' as const;
+export const SITE_URL = 'https://kamal.is-a.dev' as const;
 
 // ── External / Social Links ─────────────────────────────────
 export const EXTERNAL_LINKS = {
@@ -84,7 +84,7 @@ export const PROJECT_DETAILS: ProjectDetail[] = [
     folder: "Portfolio",
     imageCount: 2,
     technologies: ["Next.js", "React", "TypeScript", "Tailwind CSS", "next-intl"],
-    liveUrl: "http://kimoo.netlify.app/",
+    liveUrl: "http://kamal.is-a.dev/",
     githubUrl: "https://github.com/kamal-sorour/My-Portfolio",
   },
   {
