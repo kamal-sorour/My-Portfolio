@@ -84,7 +84,7 @@ export const PROJECT_DETAILS: ProjectDetail[] = [
     folder: "Portfolio",
     imageCount: 2,
     technologies: ["Next.js", "React", "TypeScript", "Tailwind CSS", "next-intl"],
-    liveUrl: "http://kamal.is-a.dev/",
+    liveUrl: "https://kamal.is-a.dev/",
     githubUrl: "https://github.com/kamal-sorour/My-Portfolio",
   },
   {
