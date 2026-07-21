@@ -4,7 +4,7 @@
 // ═══════════════════════════════════════════════════════════════
 
 // ── Site ─────────────────────────────────────────────────────
-export const SITE_URL = 'https://kamal.is-a.dev' as const;
+export const SITE_URL = 'https://kamal.is-a.dev/' as const;
 
 // ── External / Social Links ─────────────────────────────────
 export const EXTERNAL_LINKS = {
