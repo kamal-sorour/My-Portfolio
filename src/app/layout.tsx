@@ -155,6 +155,7 @@ export default function RootLayout({
         <meta name="apple-mobile-web-app-title" content="Kamal Portfolio" />
         <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
         <meta name="msapplication-TileColor" content="#6366f1" />
+        <meta name="google-site-verification" content="jIx8c6h3lw2O23c2m6OlKpxsdenhsU1elMjv2lOgHqw" />
         <meta name="msapplication-TileImage" content="/icons/icon-144x144.png" />
       </head>
       <body className="min-h-full scroll-smooth" data-scroll-behavior="smooth">
