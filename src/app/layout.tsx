@@ -38,10 +38,14 @@ export const metadata: Metadata = {
     "Egypt Developer",
     "مطور ويب",
     "كمال محمد سرور",
+    "كمال سرور",
+    "كمال محمد",
+    "مبرمج مواقع",
   ],
   authors: [{ name: "Kamal Mohamed Sorour", url: SITE_URL }],
   creator: "Kamal Mohamed Sorour",
   publisher: "Kamal Mohamed Sorour",
+  applicationName: "Kamal Mohamed",
 
   // ── Canonical & Alternates ────────────────────────
   metadataBase: new URL(SITE_URL),
