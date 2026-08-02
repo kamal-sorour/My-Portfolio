@@ -4,6 +4,7 @@ import Navbar from "@/components/Navbar/Navbar";
 import { routing } from "@/i18n/routing";
 import BackToTop from "@/components/BackToTop/BackToTop";
 import Footer from "@/components/Footer/Footer";
+import { Toaster } from "sonner";
 
 type LocaleLayoutProps = {
   children: React.ReactNode;
@@ -26,6 +27,7 @@ export default async function LocaleLayout({
       <BackToTop />
       {children}
       <Footer />
+      <Toaster position="bottom-right" richColors />
     </NextIntlClientProvider>
   );
 }

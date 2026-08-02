@@ -79,9 +79,9 @@ const Footer = () => {
                 <a
                   key={social.name}
                   href={social.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label={social.name}
+                  target={social.url.startsWith('mailto:') ? undefined : '_blank'}
+                  rel={social.url.startsWith('mailto:') ? undefined : 'noopener noreferrer'}
+                  aria-label={`Visit Kamal's ${social.name} ${social.url.startsWith('mailto:') ? '' : 'profile'}`}
                   className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-app-muted hover:bg-primary/20 hover:text-primary transition-all duration-300 hover:-translate-y-1"
                 >
                   <social.icon />

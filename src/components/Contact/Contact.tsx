@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import { Mail, Send, CheckCircle, AlertCircle, Loader2, DoorOpen, Sparkles, MailIcon, Code, Code2 } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 import { EXTERNAL_LINKS } from '@/constants/links';
+import { toast } from 'sonner';
 
 // الأنواع (Types) إذا لم تكن مستوردة
 interface ContactFormData {
@@ -30,14 +31,17 @@ const Contact = () => {
 
       if (response.ok) {
         setStatus('success');
+        toast.success(t("successMessage") || 'Message sent successfully!');
         setFormData({ name: '', email: '', message: '' });
         // إرجاع الحالة للطبيعي بعد 5 ثواني
         setTimeout(() => setStatus('idle'), 5000);
       } else {
         setStatus('error');
+        toast.error(t("errorMessage") || 'Failed to send message.');
       }
     } catch (error) {
       setStatus('error');
+      toast.error(t("errorMessage") || 'An error occurred while sending the message.');
     }
   };
 

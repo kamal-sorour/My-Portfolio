@@ -125,6 +125,7 @@ const Skills = () => {
                     return (
                       <div
                         key={skill.name}
+                        aria-label={`${skill.name} proficiency: ${skill.level}%`}
                         className={`group relative bg-app-surface rounded-2xl p-5 border transition-all duration-300 cursor-default flex flex-col items-center text-center gap-3 ${isHovered ? 'scale-[1.05] -translate-y-1' : 'hover:scale-[1.02]'
                           }`}
                         style={{

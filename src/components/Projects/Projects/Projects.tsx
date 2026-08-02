@@ -1,12 +1,17 @@
 "use client";
 
+import dynamic from "next/dynamic";
 import React, { useState, useEffect, useMemo } from "react";
 import Image from "next/image";
 import { ExternalLink, Eye, DoorOpen, Sparkles, Search, Layers } from "lucide-react";
 import { useTranslations } from "next-intl";
 import ProjectFilter, { FilterOptions } from "../ProjectFilter/ProjectFilter";
-import ProjectModal, { Project } from "../ProjectModal/ProjectModal";
+import type { Project } from "../ProjectModal/ProjectModal";
 import { PROJECT_DETAILS, DEFAULT_PROJECT_IMAGE, getProjectImages } from "@/constants/links";
+
+const ProjectModal = dynamic(() => import("../ProjectModal/ProjectModal"), {
+  ssr: false,
+});
 
 const Projects = () => {
   const t = useTranslations("projects");

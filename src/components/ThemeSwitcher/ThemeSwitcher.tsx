@@ -17,18 +17,27 @@ const ThemeSwitcher = () => {
     const [isOpen, setIsOpen] = useState(false);
     const dropdownRef = useRef<HTMLDivElement>(null);
 
-    // إغلاق القائمة عند النقر خارجها بشكل احترافي بدلاً من الـ Div الوهمي
+    // إغلاق القائمة عند النقر خارجها أو عند ضغط زر Escape
     useEffect(() => {
         const handleClickOutside = (event: MouseEvent) => {
             if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
                 setIsOpen(false);
             }
         };
+        const handleKeyDown = (event: KeyboardEvent) => {
+            if (event.key === 'Escape') {
+                setIsOpen(false);
+            }
+        };
 
         if (isOpen) {
             document.addEventListener('mousedown', handleClickOutside);
+            document.addEventListener('keydown', handleKeyDown);
         }
-        return () => document.removeEventListener('mousedown', handleClickOutside);
+        return () => {
+            document.removeEventListener('mousedown', handleClickOutside);
+            document.removeEventListener('keydown', handleKeyDown);
+        };
     }, [isOpen]);
 
     return (
@@ -48,6 +57,8 @@ const ThemeSwitcher = () => {
 
             {/* استخدام CSS للأنيميشن بدلاً من الحذف من الـ DOM للحصول على تأثير سلس */}
             <div 
+                role="menu"
+                aria-label={t('themes')}
                 className={`absolute top-full mt-2 w-48 bg-app-surface/95 backdrop-blur-xl border border-white/10 rounded-xl shadow-xl z-20 overflow-hidden transition-all duration-200 origin-top ${
                     isOpen ? 'opacity-100 scale-100 visible' : 'opacity-0 scale-95 invisible'
                 } ${isRtl ? 'right-0' : 'right-0 md:left-auto'}`}

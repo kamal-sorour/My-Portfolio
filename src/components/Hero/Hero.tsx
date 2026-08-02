@@ -1,9 +1,19 @@
 'use client';
 
+import dynamic from 'next/dynamic';
 import React from 'react';
 import { Box, BriefcaseBusiness, Code, Cpu, Mail, Terminal, TestTube2, GitBranch } from 'lucide-react';
 import { useLocale, useTranslations } from 'next-intl';
-import TerminalBot from '@/components/TerminalBot/TerminalBot'; // تأكد من المسار
+
+const TerminalBot = dynamic(() => import('@/components/TerminalBot/TerminalBot'), {
+  ssr: false,
+  loading: () => (
+    <div className="w-full h-96 bg-app-surface/40 backdrop-blur-xl rounded-2xl border border-white/10 animate-pulse flex flex-col items-center justify-center gap-3">
+      <Terminal size={40} className="text-primary/50" />
+      <span className="text-sm font-mono text-app-muted">Loading Terminal Assistant...</span>
+    </div>
+  ),
+});
 
 
 import { EXTERNAL_LINKS } from '@/constants/links';

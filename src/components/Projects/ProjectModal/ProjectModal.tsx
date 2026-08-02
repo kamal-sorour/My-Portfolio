@@ -31,14 +31,24 @@ const ProjectModal: React.FC<ProjectModalProps> = ({ project, isOpen, onClose })
   const t = useTranslations('projects');
 
   useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape' && isOpen) {
+        onClose();
+      }
+    };
+
     if (isOpen) {
       document.body.style.overflow = 'hidden';
       setCurrentImgIndex(0); // إعادة التعيين عند فتح المودال
+      window.addEventListener('keydown', handleKeyDown);
     } else {
       document.body.style.overflow = 'unset';
     }
-    return () => { document.body.style.overflow = 'unset'; };
-  }, [isOpen]);
+    return () => {
+      document.body.style.overflow = 'unset';
+      window.removeEventListener('keydown', handleKeyDown);
+    };
+  }, [isOpen, onClose]);
 
   if (!isOpen || !project) return null;
 
@@ -46,11 +56,17 @@ const ProjectModal: React.FC<ProjectModalProps> = ({ project, isOpen, onClose })
   const prevImage = () => setCurrentImgIndex((prev) => (prev === 0 ? project.images.length - 1 : prev - 1));
 
   return (
-    <div className="fixed inset-0 z-100 flex items-center justify-center p-4 sm:p-6">
+    <div 
+      className="fixed inset-0 z-100 flex items-center justify-center p-4 sm:p-6"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="modal-project-title"
+    >
       {/* Backdrop */}
       <div 
         className="absolute inset-0 bg-black/80 backdrop-blur-md transition-opacity duration-300"
         onClick={onClose}
+        aria-hidden="true"
       />
 
       {/* Modal Content */}
@@ -60,7 +76,7 @@ const ProjectModal: React.FC<ProjectModalProps> = ({ project, isOpen, onClose })
         <button
           onClick={onClose}
           className="absolute top-4 right-4 z-20 p-2.5 bg-black/50 hover:bg-primary rounded-full text-white backdrop-blur-md transition-all duration-300 hover:rotate-90 group"
-          aria-label="Close modal"
+          aria-label="Close project modal"
         >
           <X size={20} className="group-hover:scale-110 transition-transform" />
         </button>
@@ -80,10 +96,18 @@ const ProjectModal: React.FC<ProjectModalProps> = ({ project, isOpen, onClose })
           {/* Carousel Controls (تظهر لو فيه أكتر من صورة) */}
           {project.images.length > 1 && (
             <>
-              <button onClick={isRtl ? nextImage : prevImage} className="absolute left-4 top-1/2 -translate-y-1/2 p-2 bg-black/40 hover:bg-primary/80 backdrop-blur-md rounded-full text-white opacity-0 group-hover:opacity-100 transition-all duration-300">
+              <button 
+                onClick={isRtl ? nextImage : prevImage} 
+                aria-label="Previous image"
+                className="absolute left-4 top-1/2 -translate-y-1/2 p-2 bg-black/40 hover:bg-primary/80 backdrop-blur-md rounded-full text-white opacity-0 group-hover:opacity-100 transition-all duration-300"
+              >
                 <ChevronLeft size={24} />
               </button>
-              <button onClick={isRtl ? prevImage : nextImage} className="absolute right-4 top-1/2 -translate-y-1/2 p-2 bg-black/40 hover:bg-primary/80 backdrop-blur-md rounded-full text-white opacity-0 group-hover:opacity-100 transition-all duration-300">
+              <button 
+                onClick={isRtl ? prevImage : nextImage} 
+                aria-label="Next image"
+                className="absolute right-4 top-1/2 -translate-y-1/2 p-2 bg-black/40 hover:bg-primary/80 backdrop-blur-md rounded-full text-white opacity-0 group-hover:opacity-100 transition-all duration-300"
+              >
                 <ChevronRight size={24} />
               </button>
               
@@ -93,6 +117,7 @@ const ProjectModal: React.FC<ProjectModalProps> = ({ project, isOpen, onClose })
                   <button
                     key={idx}
                     onClick={() => setCurrentImgIndex(idx)}
+                    aria-label={`Go to image ${idx + 1}`}
                     className={`h-2 rounded-full transition-all duration-300 ${currentImgIndex === idx ? 'w-8 bg-primary' : 'w-2 bg-white/50 hover:bg-white'}`}
                   />
                 ))}
@@ -104,7 +129,7 @@ const ProjectModal: React.FC<ProjectModalProps> = ({ project, isOpen, onClose })
         {/* Content Section */}
         <div className="p-6 md:p-8 overflow-y-auto custom-scrollbar">
           <div className="flex flex-wrap items-center gap-3 mb-4">
-            <h2 className="text-3xl md:text-4xl font-bold text-transparent bg-clip-text bg-linear-to-r from-white to-gray-400">
+            <h2 id="modal-project-title" className="text-3xl md:text-4xl font-bold text-transparent bg-clip-text bg-linear-to-r from-white to-gray-400">
               {project.title}
             </h2>
             <span className="px-3 py-1 bg-primary/10 text-primary border border-primary/20 rounded-full text-sm font-medium">
