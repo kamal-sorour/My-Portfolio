@@ -159,6 +159,12 @@
         "complexity": "Advanced"
       },
       {
+        "title": "حَبكة (Habka)",
+        "description": "منصة سينما عصرية تتيح للمستخدمين استكشاف وعرض الأفلام الحديثة. تم بناء المشروع باستخدام Next.js 16، و React 19، ويتميز ببيئة تطوير سريعة تعتمد على TypeScript و Tailwind CSS v4 مع مكتبات إدارة الحالة الحديثة مثل Zustand.",
+        "type": "Movie App",
+        "complexity": "Advanced"
+      },
+      {
         "title": "كمال سرور — معرض الأعمال",
         "description": "معرض أعمال حديث وثنائي اللغة (إنجليزي / عربي) تم بناؤه باستخدام تقنيات الويب الحديثة. يتميز بـ 6 ثيمات مخصصة، و next-intl للترجمة الآمنة، و service worker مخصص لدعم PWA، وبوت ترمينال تفاعلي، و contact API محدد لمعدل الطلبات.",
         "type": "Portfolio",
@@ -175,12 +181,6 @@
         "description": "تطبيق صفحة واحدة (SPA) متكامل يعمل كرفيق صحي يومي. يربط بين قاعدة بيانات للوجبات الصحية، ونظام فحص باركود المنتجات الذكي لمعرفة قيمها الغذائية باستخدام OpenFoodFacts API، وتتبع السعرات اليومية وتخزينها محلياً.",
         "type": "Health App",
         "complexity": "Advanced"
-      },
-      {
-        "title": "كويز ماستر (QuizMaster)",
-        "description": "تطبيق اختبارات وأسئلة تفاعلية حديث يجلب الأسئلة بشكل ديناميكي من Open Trivia Database API. يتميز باختيار الفئات ومستويات الصعوبة، ومؤقت تنازلي بصري، وتغذية صوتية تفاعلية، ولوحة متصدرين مخزنة محلياً.",
-        "type": "Quiz App",
-        "complexity": "Intermediate"
       }
     ],
     "technologies": "التقنيات",
@@ -188,9 +188,9 @@
       "E-commerce": "تجارة إلكترونية",
       "Social Network": "شبكة اجتماعية",
       "Portfolio": "معرض أعمال",
+      "Movie App": "تطبيق سينما",
       "Blog": "مدونة",
-      "Health App": "تطبيق صحي",
-      "Quiz App": "تطبيق اختبارات"
+      "Health App": "تطبيق صحي"
     },
     "complexities": {
       "Basic": "أساسي",
@@ -253,7 +253,7 @@
     "privacy": "سياسة الخصوصية",
     "terms": "شروط الخدمة",
     "rights": "جميع الحقوق محفوظة.",
-    "builtWith": "تم بناؤه باستخدام Next.js 16 · TypeScript · Vercel"
+    "builtWith": "تم بناؤه باستخدام Next.js 16 · TypeScript"
   },
   "themes": "المظاهر"
 }

@@ -146,6 +146,12 @@
         "complexity": "Advanced"
       },
       {
+        "title": "Habka",
+        "description": "Habka is a modern movie platform designed for simplicity and performance. It features a clean, intuitive interface that allows users to browse and watch movies effortlessly. Built with Next.js, React, and Tailwind CSS.",
+        "type": "Movie App",
+        "complexity": "Advanced"
+      },
+      {
         "title": "Kamal Sorour — Portfolio",
         "description": "A modern, bilingual (English / Arabic) developer portfolio built with cutting-edge web technologies. Features 6 custom themes, next-intl for type-safe translations, custom service worker for PWA support, interactive terminal bot, and rate-limited contact API.",
         "type": "Portfolio",
@@ -162,12 +168,6 @@
         "description": "A modular Single Page Application (SPA) health companion. Integrates a smart recipe search database, a packaged product barcode scanner utilizing OpenFoodFacts API, and a daily food log tracking calories and macronutrients locally.",
         "type": "Health App",
         "complexity": "Advanced"
-      },
-      {
-        "title": "QuizMaster",
-        "description": "A modern, interactive trivia application fetching questions dynamically from the Open Trivia Database API. Features category selection, countdown timers, keyboard shortcuts, audio feedback, and local storage high score leaderboard.",
-        "type": "Quiz App",
-        "complexity": "Intermediate"
       }
     ],
     "technologies": "Technologies",
@@ -176,8 +176,8 @@
       "Social Network": "Social Network",
       "Portfolio": "Portfolio",
       "Blog": "Blog",
-      "Health App": "Health App",
-      "Quiz App": "Quiz App"
+      "Movie App": "Movie App",
+      "Health App": "Health App"
     },
     "complexities": {
       "Basic": "Basic",
@@ -240,7 +240,7 @@
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "rights": "All rights reserved.",
-    "builtWith": "Built with Next.js 16 · TypeScript · Vercel"
+    "builtWith": "Built with Next.js 16 · TypeScript"
   },
   "themes": "Themes"
 }
