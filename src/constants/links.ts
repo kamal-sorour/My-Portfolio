@@ -81,6 +81,13 @@ export const PROJECT_DETAILS: ProjectDetail[] = [
     githubUrl: "https://github.com/kamal-sorour/yass-social",
   },
   {
+    folder: "Habka",
+    imageCount: 3,
+    technologies: ["Next.js", "React", "TypeScript", "Tailwind CSS", "shadcn/ui", "zustand"],
+    liveUrl: "https://habka.netlify.app/",
+    githubUrl: "https://github.com/kamal-sorour/habka",
+  },
+  {
     folder: "Portfolio",
     imageCount: 2,
     technologies: ["Next.js", "React", "TypeScript", "Tailwind CSS", "next-intl"],
@@ -101,11 +108,11 @@ export const PROJECT_DETAILS: ProjectDetail[] = [
     liveUrl: "https://kamal-sorour.github.io/NutriPlan/",
     githubUrl: "https://github.com/kamal-sorour/NutriPlan",
   },
-  {
-    folder: "QuizMaster",
-    imageCount: 1,
-    technologies: ["HTML5", "CSS3", "JavaScript", "Open Trivia DB API", "Web Audio API"],
-    liveUrl: "https://kamal-sorour.github.io/quiz-app/",
-    githubUrl: "https://github.com/kamal-sorour/quiz-app",
-  },
+  // {
+  //   folder: "QuizMaster",
+  //   imageCount: 1,
+  //   technologies: ["HTML5", "CSS3", "JavaScript", "Open Trivia DB API", "Web Audio API"],
+  //   liveUrl: "https://kamal-sorour.github.io/quiz-app/",
+  //   githubUrl: "https://github.com/kamal-sorour/quiz-app",
+  // },
 ];
