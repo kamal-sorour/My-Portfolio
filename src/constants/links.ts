@@ -84,7 +84,7 @@ export const PROJECT_DETAILS: ProjectDetail[] = [
     folder: "Habka",
     imageCount: 3,
     technologies: ["Next.js", "React", "TypeScript", "Tailwind CSS", "shadcn/ui", "zustand"],
-    liveUrl: "https://habka.netlify.app/",
+    liveUrl: "https://habka.vercel.app/",
     githubUrl: "https://github.com/kamal-sorour/habka",
   },
   {
